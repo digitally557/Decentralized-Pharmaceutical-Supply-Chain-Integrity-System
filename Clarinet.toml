@@ -5,9 +5,17 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.batch-tokenization]
+path = "contracts/batch-tokenization.clar"
+epoch = "latest"
+
+[contracts.supply-chain-transfer]
+path = "contracts/supply-chain-transfer.clar"
+epoch = "latest"
+
+[contracts.regulatory-oversight]
+path = "contracts/regulatory-oversight.clar"
+epoch = "latest"
 
 [repl.analysis]
 passes = ["check_checker"]
